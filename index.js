@@ -1,5 +1,6 @@
 // Imports
 import { fetchImageAndReturnBase64ImageData } from '/utils/fetchImageAndReturnBase64ImageData'
+import uploadImageUrl from './images/upload.svg'
 
 // Constants and Variables
 const workerUrl = 'https://the-describer-worker.shant.workers.dev/'
@@ -294,7 +295,7 @@ function clearFileInput() {
 }
 
 function clearImageInputArea() {
-    imageInputArea.innerHTML = `<img class="upload-icon" src="images/upload.svg" alt="Upload image">
+    imageInputArea.innerHTML = `<img class="upload-icon" src=${uploadImageUrl} alt="Upload image">
                     <p>Drop image here or click to upload</p>`
 }
 
