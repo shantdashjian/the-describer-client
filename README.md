@@ -1,21 +1,36 @@
-# cQnJp3hJ
+# The Describer Client
+A web client for The Describer app, built with HTML, CSS, and JS. 
 
-Quick start:
+![demo](readme-images/demo.gif "Demo")
 
-```
-$ npm install
-$ npm start
-````
+## In This Document:
+  - [Live Application URL](#live-application-url)
+  - [How to Use the Application](#how-to-use-the-application)
+  - [Technologies Used](#technologies-used)
+  - [Future Features:](#future-features)
+  - [Challenges and Learning Points:](#challenges-and-learning-points)
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
+## Live Application URL
+[https://thedescriber.pages.dev/](https://thedescriber.pages.dev/)
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## How to Use the Application
+   
+1. The user drags and drops an image or uploads an image file.
+2. They choose the description length using the slider.
+3. They click on Describe.
+4. The description displays.
+5. They could copy the text.
+6. They could clear and start over.
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## Technologies Used
+1. HTML, CSS, and JavaScript.
 
-Happy Coding!
+## Future Features:
+1. Adding a Read functionality.
+
+## Challenges and Learning Points:
+1. I practiced deploying AI-powered applications to Cloudflare.
+   
+<hr>
+
+[Up](README.md)
