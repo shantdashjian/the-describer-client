@@ -67,7 +67,7 @@ header {
 
 .header-title {
     position: absolute;
-    top: 5vh;
+    top: 3vh;
     right: 9vw;
     font-weight: bold;
 }
@@ -80,7 +80,7 @@ header {
 
 .header-title-line-2 {
     font-size: clamp(2.2rem, 16vw, 16rem);
-    line-height: 1.0; 
+    line-height: 0.9; 
     margin: 0;
 }
 
