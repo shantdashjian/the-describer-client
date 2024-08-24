@@ -79,7 +79,7 @@ async function describe() {
         endLoading()
         const description = await response.json()
         if (!response.ok) {
-            throw new Error(summary.error)
+            throw new Error(response.error)
           }
         descriptionOutputArea.value = description
         enableDescriptionOutputArea()
