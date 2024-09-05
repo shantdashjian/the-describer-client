@@ -79,7 +79,7 @@ async function describe() {
         endLoading()
         const description = await response.json()
         if (!response.ok) {
-            throw new Error(response.error)
+            throw new Error(description.error)
           }
         descriptionOutputArea.value = description
         enableDescriptionOutputArea()
@@ -220,7 +220,7 @@ function handleError(error) {
     disableImageInputArea()
     disableAllControls()
     hideDescriptionContent()
-    setErrorMessageText(`There was an error processing the image: ${error.message}`)
+    setErrorMessageText(`There was an error processing the image: ${error}`)
     displayErrorSection()
 }
 
